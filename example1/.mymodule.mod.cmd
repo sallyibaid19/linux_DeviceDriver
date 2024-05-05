@@ -1,0 +1,1 @@
+savedcmd_/home/workspace/linux_DeviceDriver/example1/mymodule.mod := printf '%s\n'   mymodule.o | awk '!x[$$0]++ { print("/home/workspace/linux_DeviceDriver/example1/"$$0) }' > /home/workspace/linux_DeviceDriver/example1/mymodule.mod
