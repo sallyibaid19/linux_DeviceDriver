@@ -1,0 +1,1 @@
+savedcmd_/home/workspace/linux_DeviceDriver/examp2/deviceNo.mod := printf '%s\n'   deviceNo.o | awk '!x[$$0]++ { print("/home/workspace/linux_DeviceDriver/examp2/"$$0) }' > /home/workspace/linux_DeviceDriver/examp2/deviceNo.mod
